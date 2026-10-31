@@ -1,0 +1,14 @@
+# NEU-DET, YOLO format.
+# Paths are relative to this file's directory.
+# Class order must match scripts/convert_neu_det_to_yolo.py.
+path: dataset
+train: images/train
+val: images/val
+nc: 6
+names:
+  - crazing
+  - inclusion
+  - patches
+  - pitted_surface
+  - rolled-in_scale
+  - scratches
